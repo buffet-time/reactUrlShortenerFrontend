@@ -1,0 +1,39 @@
+{
+	"name": "reacturlshortener",
+	"version": "1.0.0",
+	"author": {
+		"email": "packageJson@danielTurcich.com",
+		"name": "Daniel Turcich",
+		"url": "https://danielTurcich.com"
+	},
+	"scripts": {
+		"serve": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview",
+		"test": "jest"
+	},
+	"dependencies": {
+		"bootstrap": "^5.1.3",
+		"react": "^17.0.0",
+		"react-bootstrap": "^2.0.3",
+		"react-dom": "^17.0.0"
+	},
+	"devDependencies": {
+		"@popperjs/core": "^2.11.0",
+		"@types/bootstrap": "^5.1.6",
+		"@types/jest": "^27.0.3",
+		"@types/react": "^17.0.0",
+		"@types/react-dom": "^17.0.0",
+		"@typescript-eslint/eslint-plugin": "^5.5.0",
+		"@typescript-eslint/parser": "^5.5.0",
+		"@vitejs/plugin-react": "^1.0.0",
+		"eslint": "^8.3.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-prettier": "^4.0.0",
+		"jest": "^27.4.3",
+		"prettier": "^2.5.0",
+		"react-test-renderer": "^17.0.2",
+		"typescript": "^4.5.2",
+		"vite": "^2.6.4"
+	}
+}

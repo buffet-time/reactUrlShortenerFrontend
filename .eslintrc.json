@@ -1,0 +1,29 @@
+{
+	"root": true,
+	"ignorePatterns": ["*/dist/*", "index.html"],
+	"env": {
+		"browser": true,
+		"es2021": true,
+		"node": true
+	},
+	"extends": [
+		"prettier",
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended"
+	],
+	"parserOptions": {
+		"parser": "@typescript-eslint/parser",
+		"sourceType": "module",
+		"ecmaVersion": "latest"
+	},
+	"plugins": ["@typescript-eslint", "prettier"],
+	"rules": {
+		"no-fallthrough": "off",
+		"prefer-const": "error",
+		"no-mixed-spaces-and-tabs": "off",
+		"prettier/prettier": "error",
+		"@typescript-eslint/no-extra-semi": "off",
+		"@typescript-eslint/no-explicit-any": "off",
+		"@typescript-eslint/ban-ts-comment": "off"
+	}
+}

@@ -1,0 +1,36 @@
+.App {
+	text-align: center;
+	background-color: #282c34;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 1.5vmin);
+	color: white;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+label {
+	margin-right: 8px;
+}
+
+.optional-url-input {
+	display: unset;
+	width: unset;
+	margin-bottom: 16px;
+}
+
+.create-button {
+	margin-bottom: 10px;
+}
+
+.previous-url {
+	display: flex;
+	flex-direction: row;
+}
+
+.close-div {
+	margin-left: 16px;
+	width: 16px;
+	cursor: pointer;
+}
